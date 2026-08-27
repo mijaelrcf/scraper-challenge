@@ -1,0 +1,4 @@
+node_modules/
+pdfs/
+procesos_extraidos.csv
+*.log
