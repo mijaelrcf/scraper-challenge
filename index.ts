@@ -233,8 +233,8 @@ async function runScraper() {
 
         console.info(`✅ Recorriendo ${rows.length} registros en la tabla.`);
 
-        //for (let i = 0; i < rows.length; i++) {
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < rows.length; i++) {
+        //for (let i = 0; i < 5; i++) {
             const row = $result(rows[i]);
 
             // Llamamos al metodo para procesar la fila
